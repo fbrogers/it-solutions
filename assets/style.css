@@ -1,0 +1,40 @@
+.site-header.image {
+    background-image: url('header-bg.jpg');
+    background-position-y: 40%;
+}
+
+.heading-underline {
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+.heading-underline::after {
+    border-bottom: 3px solid;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 0;
+    min-width: 2rem;
+    position: absolute;
+    width: 1em;
+    color: #fc0;
+}
+
+.badge.badge-light {
+    background-color: #eee;
+}
+
+.bg-black {
+    background-color: black;
+}
+.list-favorites-item {
+    transition: all 1s;
+}
+.list-favorites-enter, .list-favorites-leave-to {
+    opacity: 0;
+    transform: translateY(30px);
+}
+.list-favorites-leave-active {
+    position: absolute;
+}
