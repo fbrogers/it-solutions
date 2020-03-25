@@ -5,7 +5,7 @@
 
 .heading-underline {
     padding-bottom: 0.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.25em;
     position: relative;
 }
 
@@ -21,20 +21,6 @@
     color: #fc0;
 }
 
-.badge.badge-light {
-    background-color: #eee;
-}
-
 .bg-black {
     background-color: black;
-}
-.list-favorites-item {
-    transition: all 1s;
-}
-.list-favorites-enter, .list-favorites-leave-to {
-    opacity: 0;
-    transform: translateY(30px);
-}
-.list-favorites-leave-active {
-    position: absolute;
 }
